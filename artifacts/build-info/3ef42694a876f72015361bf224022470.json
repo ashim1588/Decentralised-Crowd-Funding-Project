@@ -1,0 +1,71 @@
+{
+	"id": "3ef42694a876f72015361bf224022470",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"CrowdFunding.sol": {
+				"content": "//SPDX-License-Identifier: U"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"\n--> CrowdFunding.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "CrowdFunding.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"CrowdFunding.sol": {
+				"ast": {
+					"absolutePath": "CrowdFunding.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "U",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "28:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
